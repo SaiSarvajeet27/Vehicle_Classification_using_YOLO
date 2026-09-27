@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Data and model artifacts
+data/raw/
+data/processed/
+*.pt
+*.pth
+*.onnx
+*.engine
+runs/
+wandb/
+mlruns/
+
+# Generated reports (keep folder placeholders if desired)
+reports/eda/*
+reports/evaluation/*
+!reports/eda/.gitkeep
+!reports/evaluation/.gitkeep
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
